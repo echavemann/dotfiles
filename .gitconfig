@@ -1,0 +1,10 @@
+[user]
+	email = echavemann@gmail.com
+	name = Ethan Havemann
+
+[alias]
+    co = checkout
+    st = status
+
+[push]
+    autoSetupRemote = true
