@@ -34,6 +34,7 @@ eval "$(zoxide init bash)"
 alias ls="eza --icons -F -H --group-directories-first --git"
 alias cd=z
 alias g=git
+alias v=nvim
 alias t=task
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export COLORTERM="truecolor"
