@@ -36,6 +36,7 @@ alias cd=z
 alias g=git
 alias v=nvim
 alias t=task
+alias m=make
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export COLORTERM="truecolor"
 source /usr/share/bash-completion/completions/git
