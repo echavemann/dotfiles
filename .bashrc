@@ -42,3 +42,4 @@ export COLORTERM="truecolor"
 source /usr/share/bash-completion/completions/git
 __git_complete g __git_main
 alias jump='function _jump(){ ssh echavemann@walkus-op-$1.tail4bf1b.ts.net; }; _jump'
+alias wssh='ssh -i ~/.ssh/walkway_ed25519'
