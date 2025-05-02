@@ -15,7 +15,10 @@
 
 [alias]
     co = checkout
+    com = checkout main
+
     st = status
+    b = branch
 
 [push]
     autoSetupRemote = true
