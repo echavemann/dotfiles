@@ -17,6 +17,8 @@
     co = checkout
     com = checkout main
 
+    c = commit -m
+
     st = status
     b = branch
 
