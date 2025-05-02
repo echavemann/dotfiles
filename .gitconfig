@@ -1,6 +1,6 @@
 [user]
-	email = echavemann@gmail.com
-	name = Ethan Havemann
+    email = echavemann@gmail.com
+    name = Ethan Havemann
 
 [core]
     editor = nvim
