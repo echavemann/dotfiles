@@ -18,6 +18,7 @@
     com = checkout main
 
     c = commit -m
+    cano = commit --amend --no-edit
 
     st = status
     b = branch
