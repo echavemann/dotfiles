@@ -31,15 +31,19 @@ unset rc
 . "$HOME/.cargo/env"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
+
+export PATH="$PATH:/opt/nvim-linux64/bin"
+export COLORTERM="truecolor"
+source /usr/share/bash-completion/completions/git
+__git_complete g __git_main
+
 alias ls="eza --icons -F -H --group-directories-first --git"
+alias lsa="ls -a"
 alias cd=z
 alias g=git
 alias v=nvim
 alias t=task
 alias m=make
-export PATH="$PATH:/opt/nvim"
-export COLORTERM="truecolor"
-source /usr/share/bash-completion/completions/git
-__git_complete g __git_main
+
 alias jump='function _jump(){ ssh echavemann@walkus-op-$1.tail4bf1b.ts.net; }; _jump'
 alias wssh='ssh -i ~/.ssh/walkway_ed25519'
