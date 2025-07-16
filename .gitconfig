@@ -16,6 +16,7 @@
 [alias]
     co = checkout
     com = checkout main
+    cob = checkout -b
 
     c = commit -m
     cano = commit --amend --no-edit
