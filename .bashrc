@@ -45,5 +45,12 @@ alias v=nvim
 alias t=task
 alias m=make
 
+export FZF_DEFAULT_OPTS='--tmux center,70%,70% --layout reverse --border top'
+export FZF_DEFAULT_COMMAND='fd --type file'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always {}' --multi"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+eval "$(fzf --bash)"
+
 alias jump='function _jump(){ ssh echavemann@walkus-op-$1.tail4bf1b.ts.net; }; _jump'
 alias wssh='ssh -i ~/.ssh/walkway_ed25519'
