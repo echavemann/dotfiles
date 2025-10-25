@@ -45,6 +45,9 @@ alias v=nvim
 alias t=task
 alias m=make
 
+alias crg="rg -t cpp"
+alias prg="rg -t py"
+
 export FZF_DEFAULT_OPTS='--tmux center,70%,70% --layout reverse --border top'
 export FZF_DEFAULT_COMMAND='fd --type file'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
