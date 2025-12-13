@@ -32,7 +32,7 @@ unset rc
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
-export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export COLORTERM="truecolor"
 source /usr/share/bash-completion/completions/git
 __git_complete g __git_main
@@ -44,6 +44,7 @@ alias g=git
 alias v=nvim
 alias t=task
 alias m=make
+alias gs="git status"
 
 alias crg="rg -t cpp"
 alias prg="rg -t py"
